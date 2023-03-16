@@ -1,5 +1,7 @@
 # Simulation_Skripte
 
+> :warning: **Für Klausuraufgaben bitte mich persönlich kontaktieren**
+
 ## Requirements
 
 ```python3 -m pip install python-igraph nbformat plotly numpy scipy sympy```
