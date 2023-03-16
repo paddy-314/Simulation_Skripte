@@ -1,0 +1,21 @@
+/*===========================================
+	INFO
+
+	AUTHOR
+	----------------------
+	BPS Bildungsportal Sachsen GmbH
+	Bahnhofstr. 6, D-09111 Chemnitz
+
+	COLORS
+	----------------------
+
+
+=============================================*/
+
+/* IMPORT BASIC */
+@import url(../basic_new/responsive.css);
+
+@media (max-width: 599px) {
+	.home .portlet .panel-header>.fonticon {color: #3f4444;}
+	.portlet .badge {background-color: #5caa7f;}
+}

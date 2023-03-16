@@ -1,0 +1,5 @@
+# exclude jupyter checkpoints
+.ipynb_checkpoints
+
+/Klausur2022
+/Altklausur

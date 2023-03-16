@@ -1,0 +1,30 @@
+.meter {
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #565656;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.meter > span {
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  overflow: hidden;
+  transition: width 1s ease-in-out;
+}
+
+.meter > .predicted {
+  background-color: #5caa7f;
+}
+
+.meter > .used {
+  background-color: #0099bc;
+}
+
+.meter > .overflow {
+  background-color: #c33b26;
+}

@@ -1,0 +1,103 @@
+	/*===========================================
+	INFO
+
+	AUTHOR
+	----------------------
+	BPS Bildungsportal Sachsen GmbH
+	Bahnhofstr. 6, D-09111 Chemnitz
+
+	COLORS
+	----------------------
+
+	#3f4444 grey dark
+
+	#5caa7f green
+	#3f795b green dark
+	#C3DFC0 green light
+	#eaf3e9 green lighter
+
+	#2c9199 green blue
+
+=============================================*/
+
+/* IMPORT BASIC */
+@import url(../basic_new/layout.css);
+
+
+.logo {background-image: url(images/logo-OPAL-green.png);}
+
+/****************************
+	CHANGE COLORS
+*****************************/
+/* GREEN */
+.form-required label:after,
+.artefact-edit .tag-editor .tag-editor-tag.active,
+.content-preview-horizontal .content-preview-img .fonticon,
+a:hover, a:focus, a:active,
+.btn:hover, .btn:focus, .btn:active,
+.post-footer .btn:hover, .post-footer .btn:focus, .post-footer .marked .btn {color: #5caa7f;}
+
+.text-info,
+a, .ui-widget-content a,
+.btn,
+.ui-dialog-buttonset .ui-button,
+.ui-dialog-buttonset .ui-button:hover, .ui-dialog-buttonset .ui-button:focus, .ui-dialog-buttonset .ui-button:active,
+.login.page-footer a, .login.page-footer li span {color: #3f795b;}
+
+.badge.highlight,
+.box-highlight,
+.tag,
+.artefact-edit .tag-editor .tag-editor-delete,
+.btn-highlight,
+.page .mobile-page-header,
+.nav-container, .nav-container + .clearfix,
+.ui-dialog .ui-dialog-titlebar {background-color: #5caa7f;}
+
+.btn-highlight:hover, .btn-highlight:focus, .btn-highlight:active,
+.page .menu-btn, .page .menu-btn:hover, .page .menu-btn:focus, .page .menu-btn:active,
+.portlet .badge,
+.forum-post.best>.post-header,
+.progress-bar,
+.post-footer .marked .badge {background-color: #3f795b;}
+
+.menu .jstree-default .jstree-container-ul .jstree-node>.jstree-children,
+.jstree-node.calendar,
+.jstree-node.efficiency-statement,
+.jstree-node.glossary,
+.ui-dialog .ui-dialog-buttonpane, .ui-dialog .btn-container {border-top-color: #5caa7f;}
+
+.mobile .mainnav > li > a,
+.mobile .subnav > li > a {border-left-color: #3f795b;}
+
+legend,
+.manage-groups .content-container .main-header,
+.manage-groups .main-header {border-bottom-color: #3f795b;}
+
+.btn-highlight,
+.btn-highlight:hover, .btn-highlight:focus, .btn-highlight:active {border-color: #3f795b;}
+
+/* GREEN LIGHT */
+.list-group-item.highlight,
+.steps .active,
+.table-panel tbody>tr.highlight,
+.btn-big:hover, .btn-big:focus, .btn-big:active,
+.box-info, .box-beta,
+.ep-map-preview.ep-map-comic,
+.table-header,
+.post-date,
+.manage-groups .main-header,
+.manage-groups .nav .active.dynamic-tab,
+.manage-groups .menu-groups .jstree-container-ul {background-color: #eaf3e9;}
+
+tr.hasNew {background-color: #eaf3e9 !important;}
+
+.steps .active .arrow, .steps .active .arrow:after {border-left-color: #eaf3e9;}
+.resource-details, .table-footer {border-color: #eaf3e9;}
+
+.manage-groups .menu-groups .jstree-clicked,
+.manage-groups .menu-groups .jstree-default .jstree-children>li a:hover,
+.manage-groups .menu-groups .jstree-default .jstree-children>li a:focus {background-color: #FBDFBD;}
+
+/* WHITE */
+.btn-highlight,
+.btn-highlight:hover, .btn-highlight:focus, .btn-highlight:active {color: #fff;}

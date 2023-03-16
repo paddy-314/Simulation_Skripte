@@ -1,0 +1,19 @@
+/*===========================================
+	INFO
+
+	AUTHOR
+	----------------------
+	BPS Bildungsportal Sachsen GmbH
+	Bahnhofstr. 6, D-09111 Chemnitz
+
+=============================================*/
+
+/* IMPORT DEFAULT TREE CSS */
+@import url(../default/style.css);
+
+.jstree-default .jstree-node,
+.jstree-default .jstree-icon,
+#jstree-dnd.jstree-default .jstree-ok,
+#jstree-dnd.jstree-default .jstree-er {background-image: url(32px-bps.png);}
+
+.jstree-default .jstree-last {background: transparent;}
